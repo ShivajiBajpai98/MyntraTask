@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/MyntraTask/src/main/java/testCases/Test_SearchFirstItemAndAddToCart.java">
+        <classes>
+            <class name="testCases.Test_SearchFirstItemAndAddToCart">
+                <methods>
+                    <include name="browser"/>
+                    <include name="searchItem"/>
+                    <include name="clickItem"/>
+                    <include name="selectSize"/>
+                    <include name="addToCart"/>
+                    <include name="viewCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
